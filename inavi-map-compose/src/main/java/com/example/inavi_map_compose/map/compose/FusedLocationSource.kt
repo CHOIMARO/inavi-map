@@ -1,11 +1,11 @@
-package com.example.toyproject.ui.compose
+package com.example.inavi_map_compose.map.compose
 
 import android.Manifest
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.remember
 import androidx.compose.ui.platform.LocalContext
-import com.example.toyproject.util.FusedLocationProvider
+import com.example.inavi_map_compose.map.location.FusedLocationProvider
 import com.google.accompanist.permissions.ExperimentalPermissionsApi
 import com.google.accompanist.permissions.rememberMultiplePermissionsState
 import com.inavi.mapsdk.maps.LocationProvider

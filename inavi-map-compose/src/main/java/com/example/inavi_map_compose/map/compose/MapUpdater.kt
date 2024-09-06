@@ -1,4 +1,4 @@
-package com.example.toyproject.ui.compose
+package com.example.inavi_map_compose.map.compose
 
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.runtime.Composable

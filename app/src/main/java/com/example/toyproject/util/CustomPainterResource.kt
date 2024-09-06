@@ -1,4 +1,4 @@
-package com.example.toyproject.ui.compose
+package com.example.toyproject.util
 
 import android.graphics.drawable.AdaptiveIconDrawable
 import android.os.Build

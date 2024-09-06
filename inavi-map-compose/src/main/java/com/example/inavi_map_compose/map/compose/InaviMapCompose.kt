@@ -1,4 +1,4 @@
-package com.example.toyproject.ui.compose
+package com.example.inavi_map_compose.map.compose
 
 import android.content.ComponentCallbacks
 import android.content.res.Configuration
@@ -24,7 +24,6 @@ import androidx.compose.ui.platform.LocalLifecycleOwner
 import androidx.compose.ui.viewinterop.AndroidView
 import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.LifecycleEventObserver
-import com.google.android.gms.maps.MapView
 import com.inavi.mapsdk.geometry.LatLng
 import com.inavi.mapsdk.maps.InaviMap
 import com.inavi.mapsdk.maps.InvMapView

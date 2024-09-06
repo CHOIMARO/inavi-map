@@ -1,6 +1,6 @@
 package com.example.toyproject.home.model
 
-import InvMarkerState
+import com.example.inavi_map_compose.map.compose.InvMarkerState
 
 data class MarkerInformationModel(
     val clickType: ClickType?,

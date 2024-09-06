@@ -1,3 +1,5 @@
+package com.example.inavi_map_compose.map.compose
+
 import android.graphics.PointF
 import android.graphics.RectF
 import android.util.Log
@@ -17,9 +19,6 @@ import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.TextUnit
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.toyproject.ui.compose.MapApplier
-import com.example.toyproject.ui.compose.MapNode
-import com.example.toyproject.util.DpToPx
 import com.inavi.mapsdk.constants.InvConstants
 import com.inavi.mapsdk.geometry.LatLng
 import com.inavi.mapsdk.style.shapes.InvMarker

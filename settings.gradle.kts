@@ -24,3 +24,5 @@ rootProject.name = "ToyProject"
 include(":app")
 include(":data")
 include(":domain")
+include(":inavi-map-compose")
+include(":inavi-map-location")

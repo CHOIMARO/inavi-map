@@ -1,4 +1,4 @@
-package com.example.toyproject.util
+package com.example.inavi_map_compose.map.location
 
 import android.annotation.SuppressLint
 import android.content.Context

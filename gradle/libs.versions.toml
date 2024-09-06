@@ -16,6 +16,11 @@ playServicesMaps = "19.0.0"
 uiViewbinding = "1.6.8"
 playServicesLocation = "21.3.0"
 
+composeCompiler = "1.5.1"
+compose = "1.7.0"
+accompanist = "0.35.0-alpha"
+inaviMapsSdk = "0.10.2"
+
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
@@ -37,6 +42,19 @@ coil-compose = { module = "io.coil-kt:coil-compose", version.ref = "coilCompose"
 play-services-maps = { group = "com.google.android.gms", name = "play-services-maps", version.ref = "playServicesMaps" }
 androidx-ui-viewbinding = { group = "androidx.compose.ui", name = "ui-viewbinding", version.ref = "uiViewbinding" }
 play-services-location = { group = "com.google.android.gms", name = "play-services-location", version.ref = "playServicesLocation" }
+
+# Inavi
+inavi-maps-sdk = { module = "com.inavi.mapsdk:inavi-maps-sdk", version.ref = "inaviMapsSdk" }
+
+# Compose
+compose-foundation = { module = "androidx.compose.foundation:foundation", version.ref = "compose" }
+
+# Kotlin
+kotlin-pluginGradle = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
+kotlin-stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "kotlin" }
+
+# Accompanist
+accompanist-permissions = { module = "com.google.accompanist:accompanist-permissions", version.ref = "accompanist" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

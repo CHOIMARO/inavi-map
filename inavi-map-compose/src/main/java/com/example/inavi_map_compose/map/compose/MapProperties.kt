@@ -1,4 +1,4 @@
-package com.example.toyproject.ui.compose
+package com.example.inavi_map_compose.map.compose
 
 import androidx.compose.runtime.Immutable
 import com.inavi.mapsdk.constants.InvConstants

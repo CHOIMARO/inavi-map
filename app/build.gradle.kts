@@ -66,6 +66,7 @@ dependencies {
     implementation(libs.play.services.maps)
     implementation(libs.androidx.ui.viewbinding)
     implementation(libs.play.services.location)
+    implementation(project(":inavi-map-compose"))
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

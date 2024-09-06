@@ -1,4 +1,4 @@
-package com.example.toyproject.ui.compose
+package com.example.toyproject.util
 
 import android.Manifest
 import android.content.pm.PackageManager

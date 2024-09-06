@@ -1,11 +1,10 @@
-package com.example.toyproject.ui.compose
+package com.example.inavi_map_compose.map.compose
 
-import InvMarkerNode
 import androidx.compose.runtime.AbstractApplier
 import com.inavi.mapsdk.maps.InaviMap
 import com.inavi.mapsdk.style.shapes.InvMarker
 
-internal interface MapNode {
+interface MapNode {
     fun onAttached() {}
     fun onRemoved() {}
     fun onCleared() {}
@@ -13,7 +12,7 @@ internal interface MapNode {
 
 private object MapNodeRoot : MapNode
 
-internal class MapApplier(
+class MapApplier(
     val map: InaviMap,
     val mapClickListeners: MapClickListeners
 ) : AbstractApplier<MapNode>(MapNodeRoot) {

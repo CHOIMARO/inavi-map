@@ -1,9 +1,7 @@
 package com.example.toyproject.home.viewmodel
 
-import InvMarkerState
 import android.graphics.RectF
 import android.util.Log
-import androidx.compose.ui.res.stringResource
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.domain.api.ResponseState
@@ -12,7 +10,7 @@ import com.example.domain.api.usecase.GetReverseGeoCodingUseCase
 import com.example.domain.map.usecase.SetSdkAppKeyUseCase
 import com.example.domain.model.api.ReverseGeoCoding.LocationModel
 import com.example.domain.model.api.pois.PoiModel
-import com.example.toyproject.R
+import com.example.inavi_map_compose.map.compose.InvMarkerState
 import com.example.toyproject.home.model.ClickType
 import com.example.toyproject.home.model.MarkerInformationModel
 import com.example.toyproject.home.model.ProcessedMarkerModel

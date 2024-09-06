@@ -26,15 +26,18 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
+import com.example.inavi_map_compose.map.compose.InaviMapCompose
+import com.example.inavi_map_compose.map.compose.InvMarker
+import com.example.inavi_map_compose.map.compose.InvMarkerState
+import com.example.inavi_map_compose.map.compose.MapApplier
+import com.example.inavi_map_compose.map.compose.MapProperties
+import com.example.inavi_map_compose.map.compose.MapUiSettings
+import com.example.inavi_map_compose.map.compose.UserTrackingMode
+import com.example.inavi_map_compose.map.compose.rememberFusedLocationSource
 import com.example.toyproject.R
 import com.example.toyproject.home.model.ClickType
 import com.example.toyproject.home.model.MarkerInformationModel
 import com.example.toyproject.home.viewmodel.MainViewModel
-import com.example.toyproject.ui.compose.InaviMapCompose
-import com.example.toyproject.ui.compose.MapApplier
-import com.example.toyproject.ui.compose.MapProperties
-import com.example.toyproject.ui.compose.MapUiSettings
-import com.example.toyproject.ui.compose.rememberFusedLocationSource
 import com.example.toyproject.ui.theme.ToyProjectTypography
 import com.inavi.mapsdk.maps.InaviMap
 import kotlinx.coroutines.launch
@@ -115,7 +118,7 @@ fun ShowInvMapView(viewModel: MainViewModel, scaffoldState: BottomSheetScaffoldS
             isCompassEnabled = true
         ),
         mapProperties = MapProperties(
-            userTrackingMode = com.example.toyproject.ui.compose.UserTrackingMode.Tracking
+            userTrackingMode = UserTrackingMode.Tracking
         ),
         mapUiSettings = MapUiSettings(
             isLocationButtonEnabled = true

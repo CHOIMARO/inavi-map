@@ -1,4 +1,4 @@
-package com.example.toyproject.ui.compose
+package com.example.inavi_map_compose.map.compose
 
 import android.graphics.PointF
 import android.location.Location
@@ -12,7 +12,7 @@ import androidx.compose.runtime.setValue
 import com.inavi.mapsdk.geometry.LatLng
 import com.inavi.mapsdk.maps.InaviMap
 
-internal class MapClickListeners {
+class MapClickListeners {
     var onMapClick: (PointF, LatLng) -> Unit by mutableStateOf({ _, _ -> })
     var onMapLongClick: (PointF, LatLng) -> Unit by mutableStateOf({ _, _ -> })
     var onMapDoubleClick: (point: PointF, coord: LatLng) -> Boolean by mutableStateOf({ _, _ -> false })
